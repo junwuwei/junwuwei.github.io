@@ -35,3 +35,4 @@
     10. 软件更新地址修改为本仓库
     11. 代码编译降到jdk11
     12. 后续准备使用okcronet 替换 cronet-okhttp
+    13. 后续准备替换org.greenrobot:eventbus
