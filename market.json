@@ -1,0 +1,17 @@
+[
+  {
+    "name": "tvbox app",
+    "list": [
+      {
+        "name": "电视版原版",
+        "url": "https://github.com/FongMi/Release/raw/fongmi/apk/release/leanback-arm64_v8a.apk",
+        "version": "v8a"
+      },
+      {
+        "name": "电视版精简版",
+        "url": "https://451096011.xyz/apk/release/leanback-arm64_v8a.apk",
+        "version": "v8a"
+      }
+    ]
+  }
+]
