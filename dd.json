@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar?t=2025;md5;aa2359c4952aa381ad35b7f16e0d4db1",
+  "spider": "./custom_spider.jar?t=2025;md5;238b0a44d72607732a4a90d5f6a96cd3",
  
   "sites": [
       { "key": "灵虎","name": "灵虎APP","type":3,"quickSearch": 1,"api": "csp_AppGet", 
@@ -112,17 +112,7 @@
       "changeable": 1
     },
     
-      {
-      "key": "csp_tufun_caiji",
-      "name": "tufun采集",
-      "type": 1,
-       "playUrl":"json:proxy://do=jsonParse&url=",
-      "api": "https://tyyszyapi.com/api.php/provide/vod/",
-  
-      "searchable": 1,
-      "changeable": 1,
-     "categories": ["国产动漫",  "国产剧",  "国产综艺","欧美剧"]
-       },
+
 
 {"key":"csp_Czsapp",
 "name":"厂长",
@@ -446,19 +436,7 @@
 "ext":"https://www.zxzjhd.com$$$/api.php/provide/vod/"
 },
 
- 
 
-
-       {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext":"http://192.168.3.3:3003/TVBox/TVBox_json_gao/raw/branch/master/biliext/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json"
-    },
     {
       "key": "dm84",
       "name": "动漫巴士",
@@ -494,7 +472,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/market.json"
+      "ext": "https://451096011.xyz/market.json"
     },
 
 
@@ -509,7 +487,16 @@
       "ext": "7b78e7a5aa8a4a8bb722ec7e171d9438"
     },
     
+        {
+      "key": "csp_tufun_caiji",
+      "name": "tufun采集",
+      "type": 1,
+       "playUrl":"json:proxy://do=jsonParse&url=",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
   
+      "searchable": 1,
+      "changeable": 1
+       },
  
      {
         "key":"miaoparty",
@@ -538,28 +525,8 @@
         "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
         "playUrl":"json:proxy://do=jsonParse&url=",
          "searchable": 1,
-         "quickSearch": 1,
-          "categories": [
-             "国产动漫",
-            "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "香港剧",
-        "台湾剧",
-        "海外剧",
-        "短片"
+         "quickSearch": 1
         
-       
-      ]
-
     },
   
 
@@ -573,31 +540,8 @@
       "playUrl":"json:proxy://do=jsonParse&url=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": ["动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "记录片",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "足球",
-        "影视解说",
-        "国产动漫"
-      ]
+      "filterable": 1
+     
     },
     {
       "key": "hongniu",
@@ -636,17 +580,8 @@
       "api": "https://mozhuazy.com/api.php/provide/vod/",
       "playUrl":"json:proxy://do=jsonParse&url=",
       "searchable": 1,
-      "quickSearch": 0,
-       "categories": [
-          
-                "国产剧",
-                "美国剧",
-                "动作片",
-                "科幻片",
-                "国产动漫",
-                "大陆综艺",
-                "短剧"
-            ]
+      "quickSearch": 0
+       
     },
    
     {
@@ -657,28 +592,8 @@
       "playUrl":"json:proxy://do=jsonParse&url=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-       
-        "恐怖片",
-        "科幻片",
-       
-        "剧情片",
-        "战争片",
-        "纪录片",
-        
-        "国产剧",
-        "欧美剧",
-   
-       
-        "国产动漫",
-       
-        "大陆综艺",
-        
-        "欧美综艺",
-        "动画片"
-      ]
+      "filterable": 1
+      
     },
    
  
@@ -690,17 +605,8 @@
       "ext": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "欧美剧",
-        
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ]
+      "changeable": 1
+     
     },
     
   {
@@ -712,24 +618,8 @@
  
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-         
-        "欧美剧",
-        "综艺",
-        "纪录片",
-        "动画片",
-        
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "动漫"
-      ]
+      "filterable": 1
+      
     },
      
          {
@@ -739,25 +629,8 @@
             "api": "http://api.guangsuapi.com/api.php/provide/vod/",
              "playUrl":"json:proxy://do=jsonParse&url=",
             "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "剧情片",
-                "恐怖片",
-                "战争片",
-                "动漫电影",
-                "大陆剧",
-                "欧美剧",
-                "港澳剧",
-                "韩剧",
-               
-                "综艺",
-                "动漫",
-                "记录片"
-            ]
+            "changeable": 1
+          
         },
         {
             "key": "极速资源",
@@ -767,29 +640,8 @@
             "ext": "https://jszyapi.com/api.php/provide/vod/",
              "playUrl":"json:proxy://do=jsonParse&url=",
             "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                
-                "内地剧",
-                "欧美剧",
-                "香港剧",
-                "韩剧",
-                
-                "动画片",
-                "剧情片",
-                "战争片",
-                "动作片",
-                "记录片",
-                "爱情片",
-                "喜剧片",
-                "科幻片",
-                "灾难片",
-                "悬疑片",
-                "犯罪片",
-                "中国动漫",
-                "日本动漫",
-                "欧美动漫"
-            ]
+            "changeable": 1
+           
         }
  
   ],
