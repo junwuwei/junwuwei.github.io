@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar?t=2025;md5;4fd3ab3c480c2619377c4c17c2ccb2d9",
+  "spider": "./custom_spider.jar?t=20251014;md5;4fd3ab3c480c2619377c4c17c2ccb2d9",
  
   "sites": [
       { "key": "灵虎","name": "灵虎APP","type":3,"quickSearch": 1,"api": "csp_AppGet", 
